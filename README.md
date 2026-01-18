@@ -4,69 +4,65 @@
 
 ### Paper Information
 - **Author(s):** Kalesha Khan Pattan
-- **Published In:** International Journal of Leading Research Publication (IJLRP)
-- **Publication Date:** Aug 2021
-- **ISSN:** E-ISSN: 2582-8010
+- **Published In:** International Journal For Multidisciplinary Research (IJFMR)
+- **Publication Date:** May 2025
+- **ISSN:** E-ISSN: 2582-2160
 - **DOI:**
-- **Impact Factor:** 9.56
+- **Impact Factor:** 9.24
 
 ### Abstract
-The paper proposes an AI-driven adaptive scaling framework to overcome the limitations of reactive, rule-based autoscaling in distributed cloud systems by predicting workload fluctuations
-and proactively adjusting resources in real time. By integrating predictive analytics with reinforcement learning, the framework continuously monitors system metrics such as CPU utilization, 
-latency, and workload intensity to make intelligent scaling decisions before performance degradation occurs. Extensive experiments conducted on clustered environments with varying sizes and workload 
-types demonstrate consistent response time improvements of approximately 35–44% compared to traditional scaling approaches. The results confirm that predictive, learning-based scaling significantly 
-reduces queuing delays, avoids over-provisioning, and improves energy efficiency. Overall, the study establishes AI-driven adaptive scaling as an effective and sustainable solution for responsive 
-and efficient workload management in modern distributed cloud systems
+This paper examines the limitations of static load-balancing strategies in high-availability container clusters, particularly their inability to adapt to node failures and dynamic workload variations. It proposes an adaptive, metrics-driven load-balancing framework that continuously monitors node health, resource utilization, and runtime conditions to enable intelligent traffic redistribution. The approach supports faster failover, proactive request routing, and improved workload symmetry across distributed nodes. Experimental evaluation on multi-node Kubernetes-style clusters demonstrates more than a 40% reduction in failure recovery time, along with improved throughput and SLA compliance compared to static methods. The study concludes that adaptive, observability-driven load balancing is essential for sustaining performance, resilience, and scalability in modern cloud-native and microservices-based environments
 
 ### Key Contributions
-- **AI-Driven Adaptive Scaling Framework:**
-  Proposed an intelligent scaling architecture that overcomes the limitations of static, rule-based autoscaling by leveraging machine learning and reinforcement learning for proactive workload management.
-
-- **Predictive Analytics–Based Workload Forecasting:**
-  Integrated predictive models to anticipate workload fluctuations and system load variations, enabling scaling decisions to be executed before performance degradation occurs.
-
-- **Reinforcement Learning–Enabled Scaling Decisions:**
-  Applied reinforcement learning to dynamically optimize scale-up and scale-down actions based on real-time feedback from response time, latency, and resource utilization metrics.
+- **Adaptive Load-Balancing Framework for Container Clusters:**
+  Proposed an intelligent, metrics-aware load-balancing architecture that overcomes the limitations of static routing policies by dynamically adapting to node failures, workload variations, and runtime conditions.
+  
+- **Real-Time Health and Resource–Aware Routing:**
+  Integrated continuous monitoring of CPU, memory, network conditions, and pod health to enable informed routing decisions based on live system feedback rather than predefined rules.
  
+- **Automated and Proactive Failover Mechanism:**
+  Implemented proactive traffic redirection and backend selection that detects failures early and reroutes requests instantly, minimizing service disruption and preventing cascading failures.
+  
 - **End-to-End Design, Implementation, and Validation:**
-  Designed, implemented, and experimentally validated a complete adaptive scaling system, demonstrating consistent response time improvements of 35–44% across diverse workloads and cluster sizes.
-
+  Designed, implemented, and experimentally evaluated a complete adaptive load-balancing system, demonstrating more than 40% reduction in failure recovery time and improved throughput across multiple cluster
+  ]sizes.
+ 
 ### Relevance & Real-World Impact
-- **Significant Reduction in Response Time:**
-  Achieved a consistent 35–44% reduction in response time compared to traditional rule-based scaling, directly improving end-user experience and service responsiveness.
- 
-- **Proactive and Stable Scaling Behavior:**
-Eliminated delayed reactions and performance oscillations by shifting from reactive threshold-based scaling to predictive, learning-driven resource adaptation.
+- **Significant Reduction in Failure Recovery Time:**
+  Achieved over 40% faster recovery compared to static load-balancing strategies, substantially improving service availability and SLA compliance in distributed container environments.
+   
+- **Improved Resilience and High Availability:**
+    Enabled faster failure detection and immediate traffic rerouting, ensuring uninterrupted service delivery even during node or pod failures.
 
-- **Efficient Resource Utilization and Cost Reduction:**
-    Minimized over-provisioning and idle resources, leading to lower operational costs and improved energy efficiency in distributed cloud environments.
+- **Efficient Workload Distribution and Resource Utilization:**
+    Maintained better workload symmetry across nodes, reducing overload conditions and improving overall resource efficiency under dynamic traffic patterns.
+  
+- **Scalable Performance Across Cluster Sizes:**
+  Demonstrated consistent and controlled recovery behavior from small to large clusters, validating the framework’s scalability and suitability for high-growth deployments.
 
-  **Scalable Deployment Across Distributed Clusters:**
-  Demonstrated effective scaling across cluster sizes ranging from small to large deployments, maintaining stable performance under static, database-intensive, and mixed computational workloads.
- 
-- **Production and Research Applicability:**
-    Designed the framework for compatibility with modern cloud orchestration platforms and provided a complete reference model—including architecture, algorithms, simulations, and evaluation—suitable for industry deployment, academic research, and advanced teaching in cloud computing and AI-driven systems.
- 
+- **Production, Research, and Educational Applicability:**
+    Provided a practical, platform-agnostic reference model—including architecture, algorithms, implementation, and empirical evaluation—applicable to real-world cloud-native systems, academic research, and
+    advanced teaching in distributed systems and container orchestration.
  
 ### Experimental Results (Summary)
 
   | Nodes | Baseline (ms) | AI-Optimized (ms) | Improvment (%)  |
   |-------|---------------| ------------------| ----------------|
-  | 3     |  410          | 260               | 36.59           |
-  | 5     |  375          | 225               | 40.00           |
-  | 7     |  340          | 195               | 42.65           |
-  | 9     |  315          | 175               | 44.44           |
-  | 11    |  295          | 165               | 44.07           |
+  | 3     |  98           | 52                | 46.94           |
+  | 5     |  114          | 60                | 47.37           |
+  | 7     |  131          | 67                | 48.85           |
+  | 9     |  150          | 75                | 50.00           |
+  | 11    |  168          | 84                | 50.00           |
 
 ### Citation
-AI-DRIVEN SCALING STRATEGIES FOR ADAPTIVE WORKLOAD MANAGEMENT IN DISTRIBUTED CLOUD SYSTEMS
+LOAD BALANCING STRATEGIES FOR HIGH-AVAILABILITY CONTAINER CLUSTERS
 * Kalesha Khan Pattan
-* International Journal of Leading Research Publication 
-* ISSN E-ISSN: 2582-8010
+* International Journal For Multidisciplinary Research 
+* ISSN E-ISSN: 2582-2160
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijlrp.com/ \
+https://www.ijfmr.com/ \
 **Author Contact** \
 **LinkedIn**: https://www.linkedin.com/**** | **Email**: pattankalesha520@gmail.com
 
