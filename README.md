@@ -1,5 +1,5 @@
 
-# load balance
+# load-balance
 **LOAD BALANCING STRATEGIES FOR HIGH-AVAILABILITY CONTAINER CLUSTERS**
 
 ### Paper Information
