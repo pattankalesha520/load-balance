@@ -7,7 +7,7 @@
 - **Published In:** International Journal For Multidisciplinary Research (IJFMR)
 - **Publication Date:** May 2025
 - **ISSN:** E-ISSN: 2582-2160
-- **DOI:**
+- **DOI:** https://doi.org/10.36948/ijfmr.2025.v07i03.60420
 - **Impact Factor:** 9.24
 
 ### Abstract
@@ -64,7 +64,7 @@ This research is shared for a academic and research purposes. For commercial use
 **Resources** \
 https://www.ijfmr.com/ \
 **Author Contact** \
-**LinkedIn**: https://www.linkedin.com/**** | **Email**: pattankalesha520@gmail.com
+**LinkedIn**: www.linkedin.com/in/pattan-khan-689978177 | **Email**: pattankalesha520@gmail.com
 
 
 
